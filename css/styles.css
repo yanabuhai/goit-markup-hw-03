@@ -67,14 +67,14 @@ img {
 /* --------------------header----------------------- */
 
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
 
 .header-wrap {
   display: flex;
   justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-nav {
@@ -146,13 +146,12 @@ img {
 /* -----------------------header-profile------------------ */
 
 .header-profile {
-  padding-bottom: 60px;
   background-color: #2e2f42;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .header-profile-wrap {
-  padding-top: 188px;
-  padding-bottom: 188px;
 }
 
 .header-title {
@@ -177,6 +176,9 @@ img {
   margin: 0 auto;
   border-radius: 4px;
   padding: 16px 32px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 
 .order-service-button:hover {
@@ -262,23 +264,27 @@ img {
 .team-images {
 }
 
+.team-wrap {
+  padding-top: 32px;
+  padding-bottom: 8px;
+  margin-bottom: 32px;
+}
+
 .team-worker-name {
   color: #2e2f42;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
-  margin-top: 32px;
   margin-bottom: 8px;
+  text-align: center;
 }
 
 .team-worker-profession {
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #434455;
-  padding-bottom: 32px;
+  text-align: center;
 }
 
 /* -------------------------------------------------- */
