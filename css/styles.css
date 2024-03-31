@@ -36,8 +36,7 @@ img {
 .container {
   width: 1158px;
   margin: 0 auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding: 0 15px;
 }
 
 .header-logo {
@@ -56,12 +55,16 @@ img {
 }
 
 .visually-hidden {
-  clip-path: inset(50%);
-  height: 1px;
-  overflow: hidden;
   position: absolute;
-  white-space: nowrap;
   width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* --------------------header----------------------- */
@@ -73,13 +76,12 @@ img {
 .header-wrap {
   display: flex;
   justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-nav {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 
 .header-logo {
@@ -123,6 +125,7 @@ img {
 }
 
 .header-address-item {
+  padding: 24px 0;
 }
 
 .header-address-link {
@@ -265,9 +268,7 @@ img {
 }
 
 .team-wrap {
-  padding-top: 32px;
-  padding-bottom: 8px;
-  margin-bottom: 32px;
+  padding: 32px 0px;
 }
 
 .team-worker-name {
